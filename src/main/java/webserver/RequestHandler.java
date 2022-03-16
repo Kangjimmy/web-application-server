@@ -41,6 +41,9 @@ public class RequestHandler extends Thread {
         		if (url.equals("/index.html")) {
         			isUrl = true;
         			break;
+        		} else if (url.equals("/user/form.html")) {
+        			isUrl = true;
+        			break;
         		}
         	}
         	String fileName = "./webapp";
